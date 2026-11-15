@@ -100,12 +100,6 @@ QA.md                  Automated checks and browser verification record
 ERROR-FIXES.md         Five failures, fixes, and current results
 ```
 
-## Deploy
-
-Follow [UPLOAD-TO-GITHUB.md](UPLOAD-TO-GITHUB.md) to upload the files and enable GitHub Pages using `main` and `/ (root)`. The root `index.html` opens the app in `dist/`, and `.nojekyll` enables plain static publishing. All app asset references are relative.
-
-For another static web host, upload the contents of `dist`. An optional, manually triggered GitHub Pages workflow also runs the tests and publishes `dist` directly. Public repository and demo links are supplied by your GitHub account after publication.
-
 ## Credits and authorship
 
 Created with AI assistance in the BUILDER_BUILD workspace. The app, examples, hints, classifier, and keyword rules were authored for this prototype. Runtime uses standard browser APIs. Training uses Python’s standard library. Tests and local serving use Node.js built-in modules. Fonts use installed local families and system fallbacks. No pretrained third-party model or collected learner dataset is bundled.

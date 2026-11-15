@@ -1,0 +1,32 @@
+Same Answer automated verification
+Recorded: 2026-11-15 17:24:08 UTC
+Command: npm test
+Exit status: 0
+
+npm notice run same-answer@1.1.0 test
+npm notice run node --test tests/core.test.mjs tests/experience.test.mjs
+✔ exact arithmetic agrees with exhaustive supported fraction pairs (11.1888ms)
+✔ Python and JS agree on Unicode and model export for every example (14.2892ms)
+✔ all five previously confident errors have appropriate teaching routes (273.0988ms)
+✔ shared evidence checks protect the keyword fallback as well (86.9574ms)
+✔ the signature explanations produce different teaching routes (6.1338ms)
+✔ empty, oversized and unfamiliar inputs can abstain (2.7886ms)
+✔ correct-sounding reasoning cannot override exact maths (0.1609ms)
+✔ incompatible content and model are rejected (7.0367ms)
+✔ original example families and normalized text are disjoint across splits (3.9878ms)
+✔ published evidence matches the exact model and data files (7.2777ms)
+✔ frozen challenge cases have no confident wrong teaching routes (39.439ms)
+✔ landing evidence uses the release report and escapes learner-like preview text (2.6827ms)
+✔ architecture scopes are distinct and the workflow identifies one real stage (0.4152ms)
+✔ Judge Mode restores full learner state, language, question and route after the seven-step demo (373.9808ms)
+✔ hero preview and navigation leave responses intact; examples use real checked routing (118.0606ms)
+✔ authored samples can restore unfinished work and a completed first attempt cannot be reopened by the shortcut (6.0511ms)
+✔ missing model uses the labeled fallback and missing content shows recovery (6.715ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 681.7469

@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "datasetSha256": "4487ef8de3ee22e8886a5e200b8bbbc6753684327a99b746615aa5b148ed2ac3",
+  "modelSha256": "7a4f141855edb8a36d2e8ad741a5f1a6f363699e4d5fd9a2ac48bbedb74b6f0a",
+  "provenance": "Original AI-assisted authored examples for this prototype. These are not collected student responses. Family IDs group translations and close paraphrases. No educator review or pupil trial has been performed.",
+  "reviewStatus": "Automated checks only. Bilingual peer and educator review pending. No learner trial.",
+  "splitCounts": {
+    "train": 48,
+    "dev": 16,
+    "test": 24
+  },
+  "model": {
+    "clearTotal": 16,
+    "correctClear": 14,
+    "uncertainTotal": 8,
+    "correctUncertain": 4,
+    "confidentWrong": 5,
+    "deferredClear": 1,
+    "languages": {
+      "en": {
+        "total": 8,
+        "correct": 5
+      },
+      "hi": {
+        "total": 6,
+        "correct": 5
+      },
+      "hinglish": {
+        "total": 5,
+        "correct": 4
+      },
+      "mixed": {
+        "total": 5,
+        "correct": 4
+      }
+    }
+  },
+  "keyword": {
+    "clearTotal": 16,
+    "correctClear": 7,
+    "uncertainTotal": 8,
+    "correctUncertain": 6,
+    "confidentWrong": 3,
+    "deferredClear": 8,
+    "languages": {
+      "en": {
+        "total": 8,
+        "correct": 4
+      },
+      "hi": {
+        "total": 6,
+        "correct": 2
+      },
+      "hinglish": {
+        "total": 5,
+        "correct": 3
+      },
+      "mixed": {
+        "total": 5,
+        "correct": 4
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "dt-0",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "en",
+      "text": "A higher bottom digit makes me think the fraction has a higher value.",
+      "model": "denominator",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "dt-1",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "hi",
+      "text": "हर जितना बड़ा होगा भिन्न का मान भी उतना बड़ा होगा।",
+      "model": "denominator",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "dt-2",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "hinglish",
+      "text": "Neeche zyada likha hai matlab fraction zyada hai.",
+      "model": "numerator",
+      "keyword": "denominator"
+    },
+    {
+      "id": "dt-3",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "mixed",
+      "text": "मैंने larger denominator देखकर इसे बड़ा माना।",
+      "model": "denominator",
+      "keyword": "denominator"
+    },
+    {
+      "id": "nt-0",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "en",
+      "text": "The size of each part does not matter to me; I picked the one with more parts selected.",
+      "model": "uncertain",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "nt-1",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "hi",
+      "text": "कितने हिस्से चुने गए हैं बस वही देखा, उनके आकार पर ध्यान नहीं दिया।",
+      "model": "numerator",
+      "keyword": "whole"
+    },
+    {
+      "id": "nt-2",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "hinglish",
+      "text": "Bas selected tukdo ki ginti ki size consider hi nahi kiya.",
+      "model": "numerator",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "nt-3",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "mixed",
+      "text": "ऊपर का numeral बड़ा दिखा इसलिए वही चुना।",
+      "model": "numerator",
+      "keyword": "numerator"
+    },
+    {
+      "id": "wt-0",
+      "family": "wt",
+      "expected": "whole",
+      "language": "en",
+      "text": "One portion was cut from a family-sized pizza, the other from a personal pizza.",
+      "model": "whole",
+      "keyword": "whole"
+    },
+    {
+      "id": "wt-1",
+      "family": "wt",
+      "expected": "whole",
+      "language": "hi",
+      "text": "एक हिस्सा बड़ी थाली की रोटी से था और दूसरा छोटी रोटी से।",
+      "model": "whole",
+      "keyword": "whole"
+    },
+    {
+      "id": "wt-2",
+      "family": "wt",
+      "expected": "whole",
+      "language": "hinglish",
+      "text": "Ek piece family size pizza ka hai dusra personal size ka.",
+      "model": "whole",
+      "keyword": "whole"
+    },
+    {
+      "id": "wt-3",
+      "family": "wt",
+      "expected": "whole",
+      "language": "mixed",
+      "text": "Starting whole अलग size का था मेरे मन में।",
+      "model": "whole",
+      "keyword": "whole"
+    },
+    {
+      "id": "rt-0",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "en",
+      "text": "After making equal partitions for both, I compared how much of each bar was covered.",
+      "model": "reasoned",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "rt-1",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "hi",
+      "text": "दोनों पट्टियों में बराबर बँटवारा करके रंगे हुए भागों को मिलाया।",
+      "model": "reasoned",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "rt-2",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "hinglish",
+      "text": "Dono bars ko ek jaisi partitions dekar covered area compare kara.",
+      "model": "reasoned",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "rt-3",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "mixed",
+      "text": "मैंने common denominator बनाया फिर अंश देखकर तुलना की।",
+      "model": "reasoned",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-0",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "",
+      "model": "uncertain",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-1",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hi",
+      "text": "हाँ",
+      "model": "uncertain",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-2",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hinglish",
+      "text": "Mujhe bas aisa laga.",
+      "model": "uncertain",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-3",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "Tomorrow my brother is going to school.",
+      "model": "uncertain",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-4",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "mixed",
+      "text": "कल lunch में क्या मिलेगा?",
+      "model": "denominator",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-5",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "The top is smaller but the bottom is larger and I cannot decide.",
+      "model": "numerator",
+      "keyword": "uncertain"
+    },
+    {
+      "id": "ut-6",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hi",
+      "text": "मैं कभी अंश देखता हूँ कभी हर, अभी तय नहीं कर पा रहा।",
+      "model": "numerator",
+      "keyword": "numerator"
+    },
+    {
+      "id": "ut-7",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "I don't believe a larger denominator always means a larger fraction, but I have no method yet.",
+      "model": "denominator",
+      "keyword": "denominator"
+    }
+  ]
+}

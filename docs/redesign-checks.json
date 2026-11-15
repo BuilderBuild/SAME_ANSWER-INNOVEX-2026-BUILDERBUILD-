@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-15",
+  "browser": "Local in-app Chromium",
+  "automatedGroups": 17,
+  "automatedFailures": 0,
+  "desktop": {
+    "documentWidth": 1425,
+    "duplicateIds": [],
+    "theme": "dark",
+    "width": 1440
+  },
+  "otherTestedViewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "horizontalOverflow": false,
+      "judgePanelTop": 82.25,
+      "judgePanelBottom": 348
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "verifiedInteractions": [
+    "A/B real routing preview",
+    "English/Hindi switch preserves text",
+    "dark/light theme",
+    "empty submission validation",
+    "comparison dialog",
+    "tutor override",
+    "first fresh comparison and exact feedback",
+    "sample recovery",
+    "collapsible sidebar",
+    "seven-step Judge Mode and full session restoration",
+    "architecture arrow-key selection",
+    "judge-heading focus",
+    "fraction-bar shortcut"
+  ],
+  "limitations": [
+    "No independent human or classroom validation",
+    "No complete assistive-technology or WCAG audit",
+    "Reduced-motion CSS checked; OS preference not emulated",
+    "No production deployment or signed-out hosting check",
+    "Web-font download blocked; local font fallbacks used"
+  ]
+}

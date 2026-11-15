@@ -1,0 +1,961 @@
+{
+  "version": 1,
+  "routingVersion": 2,
+  "datasetSha256": "4487ef8de3ee22e8886a5e200b8bbbc6753684327a99b746615aa5b148ed2ac3",
+  "modelSha256": "7a4f141855edb8a36d2e8ad741a5f1a6f363699e4d5fd9a2ac48bbedb74b6f0a",
+  "routingSha256": "8e86dee573bf81f5bbf111cd85684350d9083224d0894033698820c72faa36bf",
+  "challengeSha256": "f979523c6b86cccd648e8bdf0c2ec34424d8a0b090f871e86c0045e0fe11a515",
+  "provenance": "Original AI-assisted authored examples for this prototype. These are not collected student responses. Family IDs group translations and close paraphrases. No educator review or pupil trial has been performed.",
+  "evaluationScope": "Original test cases are now known regression cases. Fresh cases were authored before implementing the safeguards, excluded from training, and evaluated after the policy was frozen. Same-author synthetic cases require independent validation.",
+  "reviewStatus": "Automated checks only. Bilingual peer and educator review pending. No learner trial.",
+  "splitCounts": {
+    "train": 48,
+    "dev": 16,
+    "test": 24
+  },
+  "model": {
+    "clearTotal": 16,
+    "correctClear": 15,
+    "uncertainTotal": 8,
+    "correctUncertain": 8,
+    "confidentWrong": 0,
+    "deferredClear": 1,
+    "languages": {
+      "en": {
+        "total": 8,
+        "correct": 7
+      },
+      "hi": {
+        "total": 6,
+        "correct": 6
+      },
+      "hinglish": {
+        "total": 5,
+        "correct": 5
+      },
+      "mixed": {
+        "total": 5,
+        "correct": 5
+      }
+    }
+  },
+  "keyword": {
+    "clearTotal": 16,
+    "correctClear": 9,
+    "uncertainTotal": 8,
+    "correctUncertain": 8,
+    "confidentWrong": 0,
+    "deferredClear": 7,
+    "languages": {
+      "en": {
+        "total": 8,
+        "correct": 6
+      },
+      "hi": {
+        "total": 6,
+        "correct": 4
+      },
+      "hinglish": {
+        "total": 5,
+        "correct": 3
+      },
+      "mixed": {
+        "total": 5,
+        "correct": 4
+      }
+    }
+  },
+  "originalBaseline": {
+    "model": {
+      "clearTotal": 16,
+      "correctClear": 14,
+      "uncertainTotal": 8,
+      "correctUncertain": 4,
+      "confidentWrong": 5,
+      "deferredClear": 1,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 5
+        },
+        "hi": {
+          "total": 6,
+          "correct": 5
+        },
+        "hinglish": {
+          "total": 5,
+          "correct": 4
+        },
+        "mixed": {
+          "total": 5,
+          "correct": 4
+        }
+      }
+    },
+    "keyword": {
+      "clearTotal": 16,
+      "correctClear": 7,
+      "uncertainTotal": 8,
+      "correctUncertain": 6,
+      "confidentWrong": 3,
+      "deferredClear": 8,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 4
+        },
+        "hi": {
+          "total": 6,
+          "correct": 2
+        },
+        "hinglish": {
+          "total": 5,
+          "correct": 3
+        },
+        "mixed": {
+          "total": 5,
+          "correct": 4
+        }
+      }
+    }
+  },
+  "knownErrors": [
+    {
+      "id": "dt-2",
+      "before": "numerator",
+      "after": "denominator",
+      "expected": "denominator"
+    },
+    {
+      "id": "ut-4",
+      "before": "denominator",
+      "after": "uncertain",
+      "expected": "uncertain"
+    },
+    {
+      "id": "ut-5",
+      "before": "numerator",
+      "after": "uncertain",
+      "expected": "uncertain"
+    },
+    {
+      "id": "ut-6",
+      "before": "numerator",
+      "after": "uncertain",
+      "expected": "uncertain"
+    },
+    {
+      "id": "ut-7",
+      "before": "denominator",
+      "after": "uncertain",
+      "expected": "uncertain"
+    }
+  ],
+  "challenge": {
+    "provenance": "32 new AI-assisted authored challenge cases frozen before implementing routing safeguards. Excluded from training and threshold selection. Same author as the implementation, so independent bilingual and educator validation remain pending.",
+    "model": {
+      "clearTotal": 16,
+      "correctClear": 15,
+      "uncertainTotal": 16,
+      "correctUncertain": 16,
+      "confidentWrong": 0,
+      "deferredClear": 1,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 8
+        },
+        "hi": {
+          "total": 8,
+          "correct": 8
+        },
+        "hinglish": {
+          "total": 8,
+          "correct": 8
+        },
+        "mixed": {
+          "total": 8,
+          "correct": 7
+        }
+      }
+    },
+    "keyword": {
+      "clearTotal": 16,
+      "correctClear": 12,
+      "uncertainTotal": 16,
+      "correctUncertain": 16,
+      "confidentWrong": 0,
+      "deferredClear": 4,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 7
+        },
+        "hi": {
+          "total": 8,
+          "correct": 7
+        },
+        "hinglish": {
+          "total": 8,
+          "correct": 7
+        },
+        "mixed": {
+          "total": 8,
+          "correct": 7
+        }
+      }
+    },
+    "rawModel": {
+      "clearTotal": 16,
+      "correctClear": 9,
+      "uncertainTotal": 16,
+      "correctUncertain": 3,
+      "confidentWrong": 16,
+      "deferredClear": 4,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 3
+        },
+        "hi": {
+          "total": 8,
+          "correct": 5
+        },
+        "hinglish": {
+          "total": 8,
+          "correct": 2
+        },
+        "mixed": {
+          "total": 8,
+          "correct": 2
+        }
+      }
+    },
+    "rawKeyword": {
+      "clearTotal": 16,
+      "correctClear": 8,
+      "uncertainTotal": 16,
+      "correctUncertain": 6,
+      "confidentWrong": 11,
+      "deferredClear": 7,
+      "languages": {
+        "en": {
+          "total": 8,
+          "correct": 4
+        },
+        "hi": {
+          "total": 8,
+          "correct": 4
+        },
+        "hinglish": {
+          "total": 8,
+          "correct": 3
+        },
+        "mixed": {
+          "total": 8,
+          "correct": 3
+        }
+      }
+    },
+    "rows": [
+      {
+        "id": "c01",
+        "language": "en",
+        "expected": "denominator",
+        "text": "I assumed the fraction with the larger bottom number was the larger amount.",
+        "model": "denominator",
+        "keyword": "denominator",
+        "rawModel": "uncertain",
+        "rawKeyword": "denominator",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c02",
+        "language": "hi",
+        "expected": "denominator",
+        "text": "नीचे ज्यादा संख्या है, इसीलिए मैंने उस भिन्न को बड़ा समझा।",
+        "model": "denominator",
+        "keyword": "denominator",
+        "rawModel": "numerator",
+        "rawKeyword": "uncertain",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c03",
+        "language": "hinglish",
+        "expected": "denominator",
+        "text": "Sirf niche wali sankhya badi thi isliye woh fraction choose ki.",
+        "model": "denominator",
+        "keyword": "denominator",
+        "rawModel": "uncertain",
+        "rawKeyword": "whole",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c04",
+        "language": "mixed",
+        "expected": "denominator",
+        "text": "हर की बड़ी value देखकर मैंने bigger fraction चुना।",
+        "model": "denominator",
+        "keyword": "denominator",
+        "rawModel": "uncertain",
+        "rawKeyword": "uncertain",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c05",
+        "language": "en",
+        "expected": "numerator",
+        "text": "I judged the amount only from the higher top number.",
+        "model": "numerator",
+        "keyword": "numerator",
+        "rawModel": "uncertain",
+        "rawKeyword": "numerator",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c06",
+        "language": "hi",
+        "expected": "numerator",
+        "text": "सिर्फ ऊपर की संख्या अधिक थी इसलिए वही भिन्न बड़ी मानी।",
+        "model": "numerator",
+        "keyword": "numerator",
+        "rawModel": "numerator",
+        "rawKeyword": "numerator",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c07",
+        "language": "hinglish",
+        "expected": "numerator",
+        "text": "Upar ki sankhya badi dikhi toh bas usi se fraction compare kiya.",
+        "model": "numerator",
+        "keyword": "numerator",
+        "rawModel": "reasoned",
+        "rawKeyword": "uncertain",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c08",
+        "language": "mixed",
+        "expected": "numerator",
+        "text": "केवल numerator को देखकर larger वाला answer लिया।",
+        "model": "numerator",
+        "keyword": "numerator",
+        "rawModel": "numerator",
+        "rawKeyword": "numerator",
+        "modelReason": "explicit-number-role",
+        "keywordReason": "explicit-number-role"
+      },
+      {
+        "id": "c09",
+        "language": "en",
+        "expected": "whole",
+        "text": "The slice on my plate came from a giant pizza, yours came from a tiny pizza.",
+        "model": "whole",
+        "keyword": "whole",
+        "rawModel": "whole",
+        "rawKeyword": "whole",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c10",
+        "language": "hi",
+        "expected": "whole",
+        "text": "मेरे हिस्से की मूल रोटी बड़ी और आपके हिस्से की मूल रोटी छोटी थी।",
+        "model": "whole",
+        "keyword": "whole",
+        "rawModel": "whole",
+        "rawKeyword": "whole",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c11",
+        "language": "hinglish",
+        "expected": "whole",
+        "text": "Mera hissa ek badi roti ka tha, tumhara chhoti roti ka.",
+        "model": "whole",
+        "keyword": "whole",
+        "rawModel": "whole",
+        "rawKeyword": "whole",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c12",
+        "language": "mixed",
+        "expected": "whole",
+        "text": "दोनों portions के starting wholes अलग आकार के थे।",
+        "model": "uncertain",
+        "keyword": "whole",
+        "rawModel": "reasoned",
+        "rawKeyword": "whole",
+        "modelReason": "unsupported-category",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c13",
+        "language": "en",
+        "expected": "reasoned",
+        "text": "I made a common denominator for both amounts before comparing the selected parts.",
+        "model": "reasoned",
+        "keyword": "uncertain",
+        "rawModel": "reasoned",
+        "rawKeyword": "uncertain",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c14",
+        "language": "hi",
+        "expected": "reasoned",
+        "text": "समान हर बनाकर दोनों अंशों का मान देखा और तुलना की।",
+        "model": "reasoned",
+        "keyword": "uncertain",
+        "rawModel": "reasoned",
+        "rawKeyword": "uncertain",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c15",
+        "language": "hinglish",
+        "expected": "reasoned",
+        "text": "Same denominator banaya aur phir dono ke numerator compare kare.",
+        "model": "reasoned",
+        "keyword": "uncertain",
+        "rawModel": "reasoned",
+        "rawKeyword": "uncertain",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c16",
+        "language": "mixed",
+        "expected": "reasoned",
+        "text": "Equal-sized wholes में ज्यादा equal parts से एक piece छोटा बनता है।",
+        "model": "reasoned",
+        "keyword": "uncertain",
+        "rawModel": "reasoned",
+        "rawKeyword": "uncertain",
+        "modelReason": "matched",
+        "keywordReason": "keywords"
+      },
+      {
+        "id": "c17",
+        "language": "en",
+        "expected": "uncertain",
+        "text": "My cousin is eight years old and I am six.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "uncertain",
+        "rawKeyword": "denominator",
+        "modelReason": "no-maths-evidence",
+        "keywordReason": "no-maths-evidence"
+      },
+      {
+        "id": "c18",
+        "language": "hi",
+        "expected": "uncertain",
+        "text": "कल स्कूल की बस कितने बजे आएगी?",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "uncertain",
+        "rawKeyword": "uncertain",
+        "modelReason": "no-maths-evidence",
+        "keywordReason": "no-maths-evidence"
+      },
+      {
+        "id": "c19",
+        "language": "hinglish",
+        "expected": "uncertain",
+        "text": "Aaj meri roti bahut badi thi aur mujhe bhookh lagi hai.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "whole",
+        "rawKeyword": "whole",
+        "modelReason": "no-maths-evidence",
+        "keywordReason": "no-maths-evidence"
+      },
+      {
+        "id": "c20",
+        "language": "mixed",
+        "expected": "uncertain",
+        "text": "हर दिन lunch में pizza मिलता है।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "whole",
+        "modelReason": "no-maths-evidence",
+        "keywordReason": "no-maths-evidence"
+      },
+      {
+        "id": "c21",
+        "language": "en",
+        "expected": "uncertain",
+        "text": "I know the numerator is larger, but I am unsure which fraction to select.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "numerator",
+        "rawKeyword": "numerator",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c22",
+        "language": "hi",
+        "expected": "uncertain",
+        "text": "अंश बड़ा है लेकिन मैं अभी उत्तर तय नहीं कर सकता।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "numerator",
+        "rawKeyword": "numerator",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c23",
+        "language": "hinglish",
+        "expected": "uncertain",
+        "text": "Neeche wali sankhya zyada hai par mujhe nahi pata kya select karu.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "numerator",
+        "rawKeyword": "denominator",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c24",
+        "language": "mixed",
+        "expected": "uncertain",
+        "text": "Bottom number बड़ा है but I cannot decide yet.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "numerator",
+        "rawKeyword": "denominator",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c25",
+        "language": "en",
+        "expected": "uncertain",
+        "text": "A bigger denominator does not mean a bigger fraction. I still need help choosing.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "denominator",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c26",
+        "language": "hi",
+        "expected": "uncertain",
+        "text": "बड़ा हर होने पर भिन्न बड़ी नहीं होती, आगे कैसे करूँ समझ नहीं आया।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "uncertain",
+        "rawKeyword": "uncertain",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c27",
+        "language": "hinglish",
+        "expected": "uncertain",
+        "text": "Bada denominator matlab badi fraction nahi hoti, abhi tareeka nahi aata.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "uncertain",
+        "modelReason": "expressed-uncertainty",
+        "keywordReason": "expressed-uncertainty"
+      },
+      {
+        "id": "c28",
+        "language": "mixed",
+        "expected": "uncertain",
+        "text": "मैं नहीं मानता कि bigger numerator हमेशा bigger fraction देता है।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "numerator",
+        "modelReason": "negated-claim",
+        "keywordReason": "negated-claim"
+      },
+      {
+        "id": "c29",
+        "language": "en",
+        "expected": "uncertain",
+        "text": "I always choose the top number and always choose the bottom number.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "numerator",
+        "rawKeyword": "uncertain",
+        "modelReason": "mixed-number-roles",
+        "keywordReason": "mixed-number-roles"
+      },
+      {
+        "id": "c30",
+        "language": "hi",
+        "expected": "uncertain",
+        "text": "मैं सिर्फ अंश से भी और सिर्फ हर से भी बड़ा उत्तर चुनता हूँ।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "numerator",
+        "modelReason": "mixed-number-roles",
+        "keywordReason": "mixed-number-roles"
+      },
+      {
+        "id": "c31",
+        "language": "hinglish",
+        "expected": "uncertain",
+        "text": "Sirf upar aur sirf neeche dono dekh kar fraction bada bola.",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "uncertain",
+        "modelReason": "mixed-number-roles",
+        "keywordReason": "mixed-number-roles"
+      },
+      {
+        "id": "c32",
+        "language": "mixed",
+        "expected": "uncertain",
+        "text": "Only numerator और only denominator से मैंने decide किया।",
+        "model": "uncertain",
+        "keyword": "uncertain",
+        "rawModel": "denominator",
+        "rawKeyword": "uncertain",
+        "modelReason": "mixed-number-roles",
+        "keywordReason": "mixed-number-roles"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "dt-0",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "en",
+      "text": "A higher bottom digit makes me think the fraction has a higher value.",
+      "model": "denominator",
+      "keyword": "denominator",
+      "rawModel": "denominator",
+      "rawKeyword": "uncertain",
+      "modelReason": "explicit-number-role",
+      "keywordReason": "explicit-number-role"
+    },
+    {
+      "id": "dt-1",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "hi",
+      "text": "हर जितना बड़ा होगा भिन्न का मान भी उतना बड़ा होगा।",
+      "model": "denominator",
+      "keyword": "denominator",
+      "rawModel": "denominator",
+      "rawKeyword": "uncertain",
+      "modelReason": "explicit-number-role",
+      "keywordReason": "explicit-number-role"
+    },
+    {
+      "id": "dt-2",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "hinglish",
+      "text": "Neeche zyada likha hai matlab fraction zyada hai.",
+      "model": "denominator",
+      "keyword": "denominator",
+      "rawModel": "numerator",
+      "rawKeyword": "denominator",
+      "modelReason": "explicit-number-role",
+      "keywordReason": "explicit-number-role"
+    },
+    {
+      "id": "dt-3",
+      "family": "dt",
+      "expected": "denominator",
+      "language": "mixed",
+      "text": "मैंने larger denominator देखकर इसे बड़ा माना।",
+      "model": "denominator",
+      "keyword": "denominator",
+      "rawModel": "denominator",
+      "rawKeyword": "denominator",
+      "modelReason": "explicit-number-role",
+      "keywordReason": "explicit-number-role"
+    },
+    {
+      "id": "nt-0",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "en",
+      "text": "The size of each part does not matter to me; I picked the one with more parts selected.",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "uncertain",
+      "rawKeyword": "uncertain",
+      "modelReason": "evidence",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "nt-1",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "hi",
+      "text": "कितने हिस्से चुने गए हैं बस वही देखा, उनके आकार पर ध्यान नहीं दिया।",
+      "model": "numerator",
+      "keyword": "uncertain",
+      "rawModel": "numerator",
+      "rawKeyword": "whole",
+      "modelReason": "matched",
+      "keywordReason": "unsupported-category"
+    },
+    {
+      "id": "nt-2",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "hinglish",
+      "text": "Bas selected tukdo ki ginti ki size consider hi nahi kiya.",
+      "model": "numerator",
+      "keyword": "uncertain",
+      "rawModel": "numerator",
+      "rawKeyword": "uncertain",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "nt-3",
+      "family": "nt",
+      "expected": "numerator",
+      "language": "mixed",
+      "text": "ऊपर का numeral बड़ा दिखा इसलिए वही चुना।",
+      "model": "numerator",
+      "keyword": "numerator",
+      "rawModel": "numerator",
+      "rawKeyword": "numerator",
+      "modelReason": "explicit-number-role",
+      "keywordReason": "explicit-number-role"
+    },
+    {
+      "id": "wt-0",
+      "family": "wt",
+      "expected": "whole",
+      "language": "en",
+      "text": "One portion was cut from a family-sized pizza, the other from a personal pizza.",
+      "model": "whole",
+      "keyword": "whole",
+      "rawModel": "whole",
+      "rawKeyword": "whole",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "wt-1",
+      "family": "wt",
+      "expected": "whole",
+      "language": "hi",
+      "text": "एक हिस्सा बड़ी थाली की रोटी से था और दूसरा छोटी रोटी से।",
+      "model": "whole",
+      "keyword": "whole",
+      "rawModel": "whole",
+      "rawKeyword": "whole",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "wt-2",
+      "family": "wt",
+      "expected": "whole",
+      "language": "hinglish",
+      "text": "Ek piece family size pizza ka hai dusra personal size ka.",
+      "model": "whole",
+      "keyword": "whole",
+      "rawModel": "whole",
+      "rawKeyword": "whole",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "wt-3",
+      "family": "wt",
+      "expected": "whole",
+      "language": "mixed",
+      "text": "Starting whole अलग size का था मेरे मन में।",
+      "model": "whole",
+      "keyword": "whole",
+      "rawModel": "whole",
+      "rawKeyword": "whole",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "rt-0",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "en",
+      "text": "After making equal partitions for both, I compared how much of each bar was covered.",
+      "model": "reasoned",
+      "keyword": "uncertain",
+      "rawModel": "reasoned",
+      "rawKeyword": "uncertain",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "rt-1",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "hi",
+      "text": "दोनों पट्टियों में बराबर बँटवारा करके रंगे हुए भागों को मिलाया।",
+      "model": "reasoned",
+      "keyword": "uncertain",
+      "rawModel": "reasoned",
+      "rawKeyword": "uncertain",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "rt-2",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "hinglish",
+      "text": "Dono bars ko ek jaisi partitions dekar covered area compare kara.",
+      "model": "reasoned",
+      "keyword": "uncertain",
+      "rawModel": "reasoned",
+      "rawKeyword": "uncertain",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "rt-3",
+      "family": "rt",
+      "expected": "reasoned",
+      "language": "mixed",
+      "text": "मैंने common denominator बनाया फिर अंश देखकर तुलना की।",
+      "model": "reasoned",
+      "keyword": "uncertain",
+      "rawModel": "reasoned",
+      "rawKeyword": "uncertain",
+      "modelReason": "matched",
+      "keywordReason": "keywords"
+    },
+    {
+      "id": "ut-0",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "uncertain",
+      "rawKeyword": "uncertain",
+      "modelReason": "length",
+      "keywordReason": "length"
+    },
+    {
+      "id": "ut-1",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hi",
+      "text": "हाँ",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "uncertain",
+      "rawKeyword": "uncertain",
+      "modelReason": "length",
+      "keywordReason": "length"
+    },
+    {
+      "id": "ut-2",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hinglish",
+      "text": "Mujhe bas aisa laga.",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "uncertain",
+      "rawKeyword": "uncertain",
+      "modelReason": "no-maths-evidence",
+      "keywordReason": "no-maths-evidence"
+    },
+    {
+      "id": "ut-3",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "Tomorrow my brother is going to school.",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "uncertain",
+      "rawKeyword": "uncertain",
+      "modelReason": "no-maths-evidence",
+      "keywordReason": "no-maths-evidence"
+    },
+    {
+      "id": "ut-4",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "mixed",
+      "text": "कल lunch में क्या मिलेगा?",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "denominator",
+      "rawKeyword": "uncertain",
+      "modelReason": "no-maths-evidence",
+      "keywordReason": "no-maths-evidence"
+    },
+    {
+      "id": "ut-5",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "The top is smaller but the bottom is larger and I cannot decide.",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "numerator",
+      "rawKeyword": "uncertain",
+      "modelReason": "expressed-uncertainty",
+      "keywordReason": "expressed-uncertainty"
+    },
+    {
+      "id": "ut-6",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "hi",
+      "text": "मैं कभी अंश देखता हूँ कभी हर, अभी तय नहीं कर पा रहा।",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "numerator",
+      "rawKeyword": "numerator",
+      "modelReason": "expressed-uncertainty",
+      "keywordReason": "expressed-uncertainty"
+    },
+    {
+      "id": "ut-7",
+      "family": "ut",
+      "expected": "uncertain",
+      "language": "en",
+      "text": "I don't believe a larger denominator always means a larger fraction, but I have no method yet.",
+      "model": "uncertain",
+      "keyword": "uncertain",
+      "rawModel": "denominator",
+      "rawKeyword": "denominator",
+      "modelReason": "expressed-uncertainty",
+      "keywordReason": "expressed-uncertainty"
+    }
+  ]
+}

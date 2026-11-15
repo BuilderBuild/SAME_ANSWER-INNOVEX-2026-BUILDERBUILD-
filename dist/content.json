@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "questions": [
+    {"id":"unit","name":{"en":"One piece, different partitions","hi":"एक हिस्सा, अलग बँटवारा"},"left":[1,8],"right":[1,6],"context":{"en":"Two rotis are exactly the same size. Which fraction represents more of one roti?","hi":"दो रोटियाँ बिल्कुल एक ही आकार की हैं। कौन-सी भिन्न एक रोटी का अधिक भाग दिखाती है?"},"transfer":{"left":[1,5],"right":[1,7],"context":{"en":"Two equal-sized chocolate bars. Which fraction is larger?","hi":"दो बराबर आकार की चॉकलेट हैं। कौन-सी भिन्न बड़ी है?"}}},
+    {"id":"numerator","name":{"en":"Look beyond the top number","hi":"ऊपर की संख्या से आगे सोचें"},"left":[2,3],"right":[3,8],"context":{"en":"Both fractions refer to the same-sized whole. Which fraction is larger?","hi":"दोनों भिन्नों का पूरा आकार बराबर है। कौन-सी भिन्न बड़ी है?"},"transfer":{"left":[3,4],"right":[4,9],"context":{"en":"Compare these parts of equal-sized wholes. Which fraction is larger?","hi":"बराबर आकार के पूर्ण भागों की तुलना करें। कौन-सी भिन्न बड़ी है?"}}},
+    {"id":"equivalent","name":{"en":"Different numbers, equal shares","hi":"अलग संख्याएँ, बराबर भाग"},"left":[1,2],"right":[2,4],"context":{"en":"The wholes are equal in size. Which fraction is larger, or are they equal?","hi":"दोनों पूरे आकार में बराबर हैं। कौन-सी भिन्न बड़ी है, या दोनों बराबर हैं?"},"transfer":{"left":[2,3],"right":[4,6],"context":{"en":"Both describe equal-sized wholes. Are these fractions different or equal in value?","hi":"दोनों पूरे आकार में बराबर हैं। क्या इन भिन्नों का मान अलग है या बराबर?"}}}
+  ],
+  "hints": {
+    "denominator": {
+      "en":{"title":"Think about the size of one piece","question":"If the same roti is shared between more people, does each person get more or less?","body":"The denominator counts equal pieces in one whole. More equal pieces make each piece smaller. Shade one piece in each equal-sized bar, then compare. For fractions with several shaded pieces, consider both numbers."},
+      "hi":{"title":"एक टुकड़े के आकार पर सोचें","question":"उसी रोटी को अधिक लोगों में बराबर बाँटें, तो हर व्यक्ति को अधिक मिलेगा या कम?","body":"हर बताता है कि पूरे को कितने बराबर टुकड़ों में बाँटा गया है। अधिक टुकड़े बनाने पर हर टुकड़ा छोटा होता है। बराबर आकार की पट्टियों में एक-एक हिस्सा रंगकर तुलना करें। कई हिस्से रंगे हों तो दोनों संख्याओं पर ध्यान दें।"}
+    },
+    "numerator": {
+      "en":{"title":"Count pieces and compare their size","question":"Are three tiny pieces always more than two large pieces? What else do you need to know?","body":"The numerator counts selected pieces. The denominator tells you the size of those pieces relative to the whole. Partition equal-sized wholes into a common number of pieces, then compare the selected pieces."},
+      "hi":{"title":"टुकड़ों की संख्या और आकार देखें","question":"क्या तीन छोटे टुकड़े हमेशा दो बड़े टुकड़ों से अधिक होते हैं? और क्या जानना ज़रूरी है?","body":"अंश चुने हुए टुकड़ों की संख्या बताता है। हर पूरे के मुकाबले उनके आकार की जानकारी देता है। बराबर आकार के पूर्ण भागों को समान संख्या के टुकड़ों में बाँटें, फिर चुने हुए टुकड़ों की तुलना करें।"}
+    },
+    "whole": {
+      "en":{"title":"First, agree on the whole","question":"You are thinking about the original roti. What happens when both original rotis are exactly the same size?","body":"An eighth of a very large roti can be physically larger than a sixth of a small roti. Here, the question specifies equal-sized wholes. The number 1/8 is smaller than 1/6. Compare using the same starting size."},
+      "hi":{"title":"पहले पूरे आकार को तय करें","question":"आप मूल रोटी के आकार पर सोच रहे हैं। अगर दोनों रोटियाँ बिल्कुल बराबर आकार की हों तो क्या होगा?","body":"बहुत बड़ी रोटी का आठवाँ भाग छोटी रोटी के छठे भाग से आकार में बड़ा हो सकता है। इस प्रश्न में दोनों पूरे आकार बराबर हैं। संख्या 1/8 का मान 1/6 से कम है। एक ही शुरुआती आकार से तुलना करें।"}
+    },
+    "reasoned": {
+      "en":{"title":"Make your reasoning visible","question":"Can you show the comparison with equal-sized fraction bars, or rewrite both fractions with the same denominator?","body":"Explain what stays the same and what changes. Equivalent fractions represent the same share of an equal-sized whole. Try the next question independently to check whether the method transfers."},
+      "hi":{"title":"अपना तर्क दिखाएँ","question":"क्या बराबर आकार की पट्टियों से तुलना दिखा सकते हैं, या दोनों भिन्नों का हर समान बना सकते हैं?","body":"बताएँ कि क्या समान रहता है और क्या बदलता है। समतुल्य भिन्नें बराबर आकार के पूरे का एक ही भाग दिखाती हैं। अपना तरीका जाँचने के लिए अगला प्रश्न अपने आप हल करें।"}
+    },
+    "uncertain": {
+      "en":{"title":"Tell me one more thing","question":"What do the top and bottom numbers mean in your answer? Assume the two wholes are the same size.","body":"There is not enough clear evidence to choose a specific hint. Add one sentence about how you compared the pieces, or ask a tutor to choose a teaching card."},
+      "hi":{"title":"एक बात और बताएँ","question":"आपके उत्तर में ऊपर और नीचे की संख्याओं का क्या मतलब है? मानें कि दोनों पूरे आकार बराबर हैं।","body":"अभी किसी खास संकेत को चुनने के लिए पर्याप्त स्पष्ट जानकारी नहीं है। आपने टुकड़ों की तुलना कैसे की, उस पर एक वाक्य जोड़ें, या शिक्षक से संकेत चुनने को कहें।"}
+    },
+    "conflict": {
+      "en":{"title":"Check the answer against your method","question":"Your explanation suggests a method, but the selected answer needs another check. Can you apply that method to both fractions?","body":"Use the two bars or a common denominator. A correct-sounding explanation and the selected answer can disagree. Ask your tutor to help reconcile them before trying a fresh pair."},
+      "hi":{"title":"उत्तर और तरीके को साथ जाँचें","question":"आपकी व्याख्या एक तरीका बताती है, लेकिन चुने हुए उत्तर को फिर जाँचना होगा। क्या दोनों भिन्नों पर वही तरीका लगा सकते हैं?","body":"दो पट्टियों या समान हर का उपयोग करें। सही लगने वाला तर्क और चुना हुआ उत्तर अलग हो सकते हैं। नया प्रश्न करने से पहले शिक्षक से दोनों को मिलाकर जाँचें।"}
+    }
+  }
+}

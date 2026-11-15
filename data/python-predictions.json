@@ -1,0 +1,354 @@
+[
+  {
+    "text": "I picked one eighth because eight is bigger than six.",
+    "category": "denominator"
+  },
+  {
+    "text": "मैंने एक बटा आठ चुना क्योंकि आठ छह से बड़ा है।",
+    "category": "denominator"
+  },
+  {
+    "text": "Maine one eighth chuna kyunki aath chhe se bada hai.",
+    "category": "denominator"
+  },
+  {
+    "text": "The bottom number is higher so the fraction must be larger.",
+    "category": "denominator"
+  },
+  {
+    "text": "नीचे की संख्या बड़ी है इसलिए भिन्न बड़ी होगी।",
+    "category": "denominator"
+  },
+  {
+    "text": "Neeche wala number bada hai isliye fraction bhi bada hoga.",
+    "category": "denominator"
+  },
+  {
+    "text": "More pieces in the denominator means a bigger share for me.",
+    "category": "denominator"
+  },
+  {
+    "text": "हर में अधिक टुकड़े हैं तो मुझे बड़ा हिस्सा मिलेगा।",
+    "category": "denominator"
+  },
+  {
+    "text": "Denominator mein zyada tukde hain toh mera hissa bada hoga.",
+    "category": "denominator"
+  },
+  {
+    "text": "I compare only denominators and choose the higher denominator.",
+    "category": "denominator"
+  },
+  {
+    "text": "मैं केवल हर देखता हूँ और बड़े हर वाली भिन्न चुनता हूँ।",
+    "category": "denominator"
+  },
+  {
+    "text": "Main sirf denominator dekhta hu aur bada denominator choose karta hu.",
+    "category": "denominator"
+  },
+  {
+    "text": "I chose three eighths because three is bigger than two.",
+    "category": "numerator"
+  },
+  {
+    "text": "तीन दो से बड़ा है इसलिए मैंने तीन बटा आठ चुना।",
+    "category": "numerator"
+  },
+  {
+    "text": "Teen do se bada hai isliye three eighths select kiya.",
+    "category": "numerator"
+  },
+  {
+    "text": "The top number is higher and I did not look at the bottom number.",
+    "category": "numerator"
+  },
+  {
+    "text": "मैंने ऊपर की बड़ी संख्या देखी और नीचे की संख्या नहीं देखी।",
+    "category": "numerator"
+  },
+  {
+    "text": "Upar ka number zyada hai neeche wala nahi dekha.",
+    "category": "numerator"
+  },
+  {
+    "text": "Only the numerator matters for deciding which fraction is larger.",
+    "category": "numerator"
+  },
+  {
+    "text": "बड़ी भिन्न तय करने के लिए केवल अंश मायने रखता है।",
+    "category": "numerator"
+  },
+  {
+    "text": "Badi fraction decide karne ke liye sirf numerator matter karta hai.",
+    "category": "numerator"
+  },
+  {
+    "text": "Three selected pieces must be more than two selected pieces regardless of their size.",
+    "category": "numerator"
+  },
+  {
+    "text": "तीन चुने हुए टुकड़े दो से अधिक होंगे चाहे उनका आकार कुछ भी हो।",
+    "category": "numerator"
+  },
+  {
+    "text": "Teen selected pieces do se zyada honge chahe tukde kitne bhi chhote ho.",
+    "category": "numerator"
+  },
+  {
+    "text": "My eighth comes from a much bigger roti than your sixth.",
+    "category": "whole"
+  },
+  {
+    "text": "मेरा आठवाँ भाग आपकी रोटी से बहुत बड़ी रोटी का है।",
+    "category": "whole"
+  },
+  {
+    "text": "Meri eighth wali roti tumhari sixth wali roti se bahut badi hai.",
+    "category": "whole"
+  },
+  {
+    "text": "The original pizzas have different sizes so the physical slices can differ.",
+    "category": "whole"
+  },
+  {
+    "text": "मूल पिज़्ज़ा अलग आकार के हैं इसलिए उनके टुकड़ों का आकार अलग हो सकता है।",
+    "category": "whole"
+  },
+  {
+    "text": "Original pizza alag size ke hai toh slices ka size bhi alag hoga.",
+    "category": "whole"
+  },
+  {
+    "text": "I imagined one big cake and one small cake before comparing their portions.",
+    "category": "whole"
+  },
+  {
+    "text": "हिस्से की तुलना से पहले मैंने एक बड़ा और एक छोटा केक सोचा।",
+    "category": "whole"
+  },
+  {
+    "text": "Maine ek bada cake aur ek chhota cake imagine kiya tha.",
+    "category": "whole"
+  },
+  {
+    "text": "The whole on the left is larger than the whole on the right.",
+    "category": "whole"
+  },
+  {
+    "text": "बाएँ वाला पूरा आकार दाएँ वाले पूरे से बड़ा है।",
+    "category": "whole"
+  },
+  {
+    "text": "Left wala poora size right wale se bada hai.",
+    "category": "whole"
+  },
+  {
+    "text": "For the same whole, dividing into more equal pieces makes each piece smaller.",
+    "category": "reasoned"
+  },
+  {
+    "text": "उसी पूरे को अधिक बराबर हिस्सों में बाँटें तो हर टुकड़ा छोटा होता है।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Same whole ke zyada equal parts banane se har piece chhota hota hai.",
+    "category": "reasoned"
+  },
+  {
+    "text": "I rewrote both fractions with a common denominator and compared the numerators.",
+    "category": "reasoned"
+  },
+  {
+    "text": "मैंने दोनों भिन्नों का हर समान किया और फिर अंशों की तुलना की।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Dono ka denominator same karke numerator compare kiya.",
+    "category": "reasoned"
+  },
+  {
+    "text": "I used cross multiplication to compare the values of both fractions.",
+    "category": "reasoned"
+  },
+  {
+    "text": "दोनों भिन्नों का मान जाँचने के लिए मैंने क्रॉस गुणा किया।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Maine cross multiply karke dono fractions ki value compare ki.",
+    "category": "reasoned"
+  },
+  {
+    "text": "Two quarters and one half cover equal shares of the same-sized whole.",
+    "category": "reasoned"
+  },
+  {
+    "text": "दो चौथाई और एक आधा बराबर आकार के पूरे का समान भाग हैं।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Two quarters aur one half same size whole ka equal hissa cover karte hai.",
+    "category": "reasoned"
+  },
+  {
+    "text": "The denominator eight exceeds six, therefore I say eighth is greater.",
+    "category": "denominator"
+  },
+  {
+    "text": "आठ वाला हर छह से अधिक है इसलिए आठवाँ हिस्सा बड़ा है।",
+    "category": "denominator"
+  },
+  {
+    "text": "Aath ka denominator six se zyada hai toh eighth badi fraction hai.",
+    "category": "denominator"
+  },
+  {
+    "text": "I selected the fraction just by its larger numerator.",
+    "category": "numerator"
+  },
+  {
+    "text": "मैंने सिर्फ बड़े अंश के आधार पर उत्तर चुना।",
+    "category": "numerator"
+  },
+  {
+    "text": "Sirf upar ke bade number ke basis par answer chuna.",
+    "category": "numerator"
+  },
+  {
+    "text": "The two cakes I was thinking of were unequal in size.",
+    "category": "uncertain"
+  },
+  {
+    "text": "जिन दो रोटियों को मैंने सोचा उनका आकार बराबर नहीं था।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Jo do roti maine sochi unka size equal nahi tha.",
+    "category": "whole"
+  },
+  {
+    "text": "Splitting an equal-sized bar into more parts makes the individual parts smaller.",
+    "category": "reasoned"
+  },
+  {
+    "text": "बराबर पट्टी के अधिक हिस्से बनेंगे तो हर हिस्सा छोटा होगा।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Equal bar mein zyada parts karne par individual part chhota hota hai.",
+    "category": "reasoned"
+  },
+  {
+    "text": "I clicked without thinking.",
+    "category": "uncertain"
+  },
+  {
+    "text": "मुझे इसका तरीका समझ नहीं आया।",
+    "category": "uncertain"
+  },
+  {
+    "text": "Pata nahi kaise karte hai.",
+    "category": "uncertain"
+  },
+  {
+    "text": "My bus arrives after lunch.",
+    "category": "uncertain"
+  },
+  {
+    "text": "A higher bottom digit makes me think the fraction has a higher value.",
+    "category": "denominator"
+  },
+  {
+    "text": "हर जितना बड़ा होगा भिन्न का मान भी उतना बड़ा होगा।",
+    "category": "denominator"
+  },
+  {
+    "text": "Neeche zyada likha hai matlab fraction zyada hai.",
+    "category": "numerator"
+  },
+  {
+    "text": "मैंने larger denominator देखकर इसे बड़ा माना।",
+    "category": "denominator"
+  },
+  {
+    "text": "The size of each part does not matter to me; I picked the one with more parts selected.",
+    "category": "uncertain"
+  },
+  {
+    "text": "कितने हिस्से चुने गए हैं बस वही देखा, उनके आकार पर ध्यान नहीं दिया।",
+    "category": "numerator"
+  },
+  {
+    "text": "Bas selected tukdo ki ginti ki size consider hi nahi kiya.",
+    "category": "numerator"
+  },
+  {
+    "text": "ऊपर का numeral बड़ा दिखा इसलिए वही चुना।",
+    "category": "numerator"
+  },
+  {
+    "text": "One portion was cut from a family-sized pizza, the other from a personal pizza.",
+    "category": "whole"
+  },
+  {
+    "text": "एक हिस्सा बड़ी थाली की रोटी से था और दूसरा छोटी रोटी से।",
+    "category": "whole"
+  },
+  {
+    "text": "Ek piece family size pizza ka hai dusra personal size ka.",
+    "category": "whole"
+  },
+  {
+    "text": "Starting whole अलग size का था मेरे मन में।",
+    "category": "whole"
+  },
+  {
+    "text": "After making equal partitions for both, I compared how much of each bar was covered.",
+    "category": "reasoned"
+  },
+  {
+    "text": "दोनों पट्टियों में बराबर बँटवारा करके रंगे हुए भागों को मिलाया।",
+    "category": "reasoned"
+  },
+  {
+    "text": "Dono bars ko ek jaisi partitions dekar covered area compare kara.",
+    "category": "reasoned"
+  },
+  {
+    "text": "मैंने common denominator बनाया फिर अंश देखकर तुलना की।",
+    "category": "reasoned"
+  },
+  {
+    "text": "",
+    "category": "uncertain"
+  },
+  {
+    "text": "हाँ",
+    "category": "uncertain"
+  },
+  {
+    "text": "Mujhe bas aisa laga.",
+    "category": "uncertain"
+  },
+  {
+    "text": "Tomorrow my brother is going to school.",
+    "category": "uncertain"
+  },
+  {
+    "text": "कल lunch में क्या मिलेगा?",
+    "category": "denominator"
+  },
+  {
+    "text": "The top is smaller but the bottom is larger and I cannot decide.",
+    "category": "numerator"
+  },
+  {
+    "text": "मैं कभी अंश देखता हूँ कभी हर, अभी तय नहीं कर पा रहा।",
+    "category": "numerator"
+  },
+  {
+    "text": "I don't believe a larger denominator always means a larger fraction, but I have no method yet.",
+    "category": "denominator"
+  }
+]
